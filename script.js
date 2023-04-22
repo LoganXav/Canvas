@@ -1,7 +1,7 @@
 const canvas = document.getElementById('canvas1')
 const ctx = canvas.getContext('2d')
-canvas.width = 580
-canvas.height = 460
+canvas.width = 350
+canvas.height = 450
 
 const image1 = new Image()
 image1.src = 'y2.png'

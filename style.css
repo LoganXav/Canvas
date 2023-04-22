@@ -7,19 +7,21 @@
 }
 
 #canvas1{
-    /* border: 1px solid white; */
+    border: .5px solid white;
+    border-radius: 1rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 580px;
-    height: 460px;
+    width: 350px;
+    height: 450px;
 }
 p{
     text-align: center;
     font-size: 1.3rem;
     color: white;
     letter-spacing: 2px;
+    margin-top: 5vh;
 }
 span{
     font-size: 2.5rem;
