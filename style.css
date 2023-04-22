@@ -3,15 +3,34 @@
     padding: 0;
     box-sizing: border-box;
     background: black;
+    font-family: 'Cookie', cursive;
 }
 
 #canvas1{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
-    height: 450px;
+    width: 580px;
+    height: 460px;
+}
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.sign{
+    position: absolute;
+    color: white;
+    bottom: 5vh;
+    right: 8vh;
+    font-size: 0.8rem;
 }
 
