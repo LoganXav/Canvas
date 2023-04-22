@@ -1,7 +1,7 @@
 const canvas = document.getElementById('canvas1')
 const ctx = canvas.getContext('2d')
-canvas.width = 350
-canvas.height = 450
+canvas.width = 390
+canvas.height = 480
 
 const image1 = new Image()
 image1.src = 'y2.png'
@@ -12,7 +12,7 @@ image1.addEventListener('load', ()=> {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
 
     let particleArray = []
-    const numberOfParticles = 5000
+    const numberOfParticles = 4000
     let mappedImage = []
 
     for(let y = 0; y < canvas.height; y++){

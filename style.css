@@ -13,8 +13,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
-    height: 450px;
+    width: 390px;
+    height: 480px;
 }
 p{
     text-align: center;
@@ -34,5 +34,6 @@ span{
     bottom: 5vh;
     right: 8vh;
     font-size: 0.8rem;
+    font-family: 'Tomorrow', sans-serif;
 }
 
